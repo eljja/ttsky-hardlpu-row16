@@ -13,8 +13,18 @@ strobe/opcode. Reset or ena=0 clears protocol state; never drive output pins.
 
 Assert rst_n=0 for at least two rising edges, then ena=1 and rst_n=1.
 Set uio_in[7:5] to opcode and pulse bit4 at a rising edge.
-1:CLEAR,2:PUSH_X,3:EXEC_FIXED,4:EXEC_PROGRAMMABLE,5:PUSH_WEIGHTS,
-6:COMMIT_WEIGHTS,7:READ. All operand/config bytes use ui_in.
+
+| Opcode | Command | Purpose |
+| --- | --- | --- |
+| 1 | CLEAR | Clear transaction state |
+| 2 | PUSH_X | Append one signed input byte |
+| 3 | EXEC_FIXED | Run fixed-weight HardLPU |
+| 4 | EXEC_PROGRAMMABLE | Run the 64-FF control |
+| 5 | PUSH_WEIGHTS | Append two packed INT4 weights |
+| 6 | COMMIT_WEIGHTS | Commit eight weight bytes |
+| 7 | READ | Read result or status by index |
+
+All operand/config bytes use ui_in.
 Push16 signed input bytes after CLEAR. Push8 packed signed-INT4 bytes and
 COMMIT before programmable execution. During busy, further strobe is rejected.
 READ ui_in=0/1 returns result low/high;2 returns status;3 returns ID0xa1;

@@ -53,8 +53,8 @@
     },
     {
       "path": "docs/info.md",
-      "bytes": 2088,
-      "sha256": "bfa9e142a74850b815b639be2be6c1abb4a4289940edc0213a128bb6fc8a369e"
+      "bytes": 2383,
+      "sha256": "3abd1eaf49edb04e12bc0c5ee53b12ab276cdc772b3c56ab28dd148ef9e66a4f"
     },
     {
       "path": "docs/sky130_fd_sc_hd.LICENSE",
