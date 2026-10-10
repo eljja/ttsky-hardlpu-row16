@@ -42,9 +42,24 @@
       "sha256": "9897a217bec323e0851d257b280a20d71e3b08767725cab5ac9fd599acbfe328"
     },
     {
+      "path": "docs/NOTICE.txt",
+      "bytes": 1087,
+      "sha256": "35624a782b30dce0015635ed9d2d28316de58e897e7778384eb429bbaa20b94a"
+    },
+    {
+      "path": "docs/Qwen3.LICENSE",
+      "bytes": 11343,
+      "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e"
+    },
+    {
       "path": "docs/info.md",
       "bytes": 2088,
       "sha256": "bfa9e142a74850b815b639be2be6c1abb4a4289940edc0213a128bb6fc8a369e"
+    },
+    {
+      "path": "docs/sky130_fd_sc_hd.LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
     },
     {
       "path": "evidence/original_source_manifest.json",
@@ -113,8 +128,8 @@
     },
     {
       "path": "scripts/verify_release.py",
-      "bytes": 8494,
-      "sha256": "ea6a1ecd9d2dcf355658017e52811cfb2c7cb849d8b178cf769fa1b97d25f59b"
+      "bytes": 8953,
+      "sha256": "e9ebf575414770d0493b8f0492b3ec3f6d96717bef7d22502bbe4815e697f83b"
     },
     {
       "path": "spef/tt_um_hardlpu_row16.max.spef",

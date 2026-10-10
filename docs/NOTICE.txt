@@ -1,0 +1,18 @@
+HardLPU row16 first-chip release
+Copyright 2026 eljja. Original first-chip materials are additionally licensed
+under Apache-2.0 with the rights owner's explicit approval. This grant covers
+only this repository subset, not the parent HardLPU project or its history.
+
+SkyWater standard-cell layout: Copyright 2020 The SkyWater PDK Authors.
+Upstream Apache-2.0 notices are retained in licenses/sky130_fd_sc_hd.LICENSE.
+The derived chip places/routes these cells; it does not claim ownership of them.
+
+Sixteen quantized constants derive from Qwen/Qwen3-30B-A3B by the Qwen team,
+Alibaba Cloud. Model revision and extraction are recorded in evidence/.
+This reduced/quantized derivative is not the original full model.
+Upstream Apache-2.0 terms are retained in licenses/Qwen3.LICENSE.
+
+Tiny Tapeout workflow interfaces and project template are adapted for an exact
+custom-GDS release, with standalone gate verification and explicit PDK pinning.
+Upstream: TinyTapeout/tt-gds-action and TinyTapeout/ttsky-analog-template,
+Apache-2.0. The tools themselves are referenced, not redistributed here.

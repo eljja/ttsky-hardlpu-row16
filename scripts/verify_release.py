@@ -132,6 +132,12 @@ def verify(root, artifact=None):
             expected_path = root / PAYLOAD[suffix] / (TOP + suffix)
             if not same_record(local_path(artifact, TOP + suffix), digest(expected_path)):
                 raise ValueError('uploaded artifact substitution: ' + suffix)
+        if schema.endswith('.v2'):
+            for source, name in (('NOTICE', 'NOTICE.txt'),
+                                 ('licenses/sky130_fd_sc_hd.LICENSE', 'sky130_fd_sc_hd.LICENSE'),
+                                 ('licenses/Qwen3.LICENSE', 'Qwen3.LICENSE')):
+                if not same_record(artifact.parent / 'docs' / name, digest(root / source)):
+                    raise ValueError('uploaded artifact license provenance missing: ' + source)
     return dict(passed=True, files=len(files), clock_hz=40000000,
                 uploaded_artifact_checked=artifact is not None,
                 tapeout_ready=False, submitted=False,
