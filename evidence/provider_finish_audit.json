@@ -1,0 +1,14 @@
+{
+  "report": {
+    "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_antenna40_v1_finish/summary.json",
+    "bytes": 16124,
+    "sha256": "dd5c32b0b679e35a7c9a85a8dba744d5316bfbf868f221ccd49ce74bdaae5293"
+  },
+  "checked_records": 75,
+  "unique_paths": 75,
+  "mismatches": [],
+  "live_process_groups": [],
+  "later_born_reused_groups": [],
+  "passed": true,
+  "scope": "Current experiment inputs/manifests, unique-file direct bytes/SHA; historical reports hash-bound, not reinterpreted as current live source; not signoff"
+}

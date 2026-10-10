@@ -1,0 +1,194 @@
+{
+  "schema": "hardlpu.exact-provider-release.v2",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": ".github/workflows/docs.yaml",
+      "bytes": 436,
+      "sha256": "b77f3863864a3d396b05ca1e2a615a56ac01a470b6a9af70bb437a5d6347c3c9"
+    },
+    {
+      "path": ".github/workflows/gds.yaml",
+      "bytes": 2320,
+      "sha256": "5c8c89dc222d8165a8fd31137ead3abda37d82f2ba97143f6d340daca302a9ea"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 61,
+      "sha256": "f1d17188550273c037f0f96cd400eca8c597d40ff7e439f81c7c61fe2b71c187"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 1087,
+      "sha256": "35624a782b30dce0015635ed9d2d28316de58e897e7778384eb429bbaa20b94a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2360,
+      "sha256": "f3d6f49130eacd0192ce6c762517c3862c36650eb88de3ca6bfb6fd940c40114"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1148,
+      "sha256": "9897a217bec323e0851d257b280a20d71e3b08767725cab5ac9fd599acbfe328"
+    },
+    {
+      "path": "docs/info.md",
+      "bytes": 2088,
+      "sha256": "bfa9e142a74850b815b639be2be6c1abb4a4289940edc0213a128bb6fc8a369e"
+    },
+    {
+      "path": "evidence/original_source_manifest.json",
+      "bytes": 3495,
+      "sha256": "cf415e61ad52bb7c39bfda95340d0f4a3403c45fa890bb0a33abbc47f65fa9bc"
+    },
+    {
+      "path": "evidence/physical_acceptance.json",
+      "bytes": 4215,
+      "sha256": "b4cff251cb4d1852939d54eea48942c155b9c16978466792b77407dcb00157bc"
+    },
+    {
+      "path": "evidence/provider_finish.json",
+      "bytes": 16124,
+      "sha256": "dd5c32b0b679e35a7c9a85a8dba744d5316bfbf868f221ccd49ce74bdaae5293"
+    },
+    {
+      "path": "evidence/provider_finish_audit.json",
+      "bytes": 535,
+      "sha256": "f1254916fea173485d0400630a03ffb3c64b0f3b0c1070b0302c44772219455a"
+    },
+    {
+      "path": "evidence/qwen3_slice_manifest.json",
+      "bytes": 1287,
+      "sha256": "f0d5fac9c5fa335332185116c68ce4285c5f2a504042922053f1d6be096807aa"
+    },
+    {
+      "path": "evidence/release_authorization.json",
+      "bytes": 1276,
+      "sha256": "eb84e68ce4a7003d300f74e0c790ffdaccb2ee9c1a62f80567b090f53743e3ae"
+    },
+    {
+      "path": "gds/tt_um_hardlpu_row16.gds",
+      "bytes": 13946702,
+      "sha256": "2b021eeda763d04cba4c2fc6e806ebf31eaedf4d6d125bd1f46fb9b55f373999"
+    },
+    {
+      "path": "info.yaml",
+      "bytes": 906,
+      "sha256": "b4a0636a1cf9055c043a4717f5285879c0c7fbb7e56e6d9561cc6f60c636f3c5"
+    },
+    {
+      "path": "lef/tt_um_hardlpu_row16.lef",
+      "bytes": 14690,
+      "sha256": "bc460c2f648fffca969901d6b1b5d1c0990b22c035d1cf214e26c9c7b0449256"
+    },
+    {
+      "path": "licenses/Qwen3.LICENSE",
+      "bytes": 11343,
+      "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e"
+    },
+    {
+      "path": "licenses/sky130_fd_sc_hd.LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "netlist/tt_um_hardlpu_row16.v",
+      "bytes": 3159580,
+      "sha256": "e8fcdfb94a3c5614ffaf9068bf564833739131e22537716f73482c6d21319f39"
+    },
+    {
+      "path": "scripts/row16_provider_acceptance.py",
+      "bytes": 1603,
+      "sha256": "85c717c648bc2607d458211681b85b63630ddc4f8324d9c995d9346936adc788"
+    },
+    {
+      "path": "scripts/verify_release.py",
+      "bytes": 8494,
+      "sha256": "ea6a1ecd9d2dcf355658017e52811cfb2c7cb849d8b178cf769fa1b97d25f59b"
+    },
+    {
+      "path": "spef/tt_um_hardlpu_row16.max.spef",
+      "bytes": 7918878,
+      "sha256": "19d9aa019a538b7a901257afc1044fd3cd60f1eca29fcc12e3931e89e32edc26"
+    },
+    {
+      "path": "spef/tt_um_hardlpu_row16.min.spef",
+      "bytes": 7345962,
+      "sha256": "e1657418f513b2eb1ebc93742f9ecaa996f3a25075daf7702fffa98ca0760b6d"
+    },
+    {
+      "path": "spef/tt_um_hardlpu_row16.nom.spef",
+      "bytes": 7470387,
+      "sha256": "8a25799f6e3486a9edee6c3b7cda24fc3922abcc2cb890a8dc3b89702441887d"
+    },
+    {
+      "path": "src/config.json",
+      "bytes": 1661,
+      "sha256": "196fdd45bf5e7334e45e6f63ac126a1331d584bac0c1c044786ea0e9e3d8cb4f"
+    },
+    {
+      "path": "src/int4_row16.sv",
+      "bytes": 1637,
+      "sha256": "27e3bb172c17dca14f9b821e89c9b32416f636f0d1446fc2ccccf21645e40276"
+    },
+    {
+      "path": "src/int4_synapse_dot4.sv",
+      "bytes": 2033,
+      "sha256": "af162287ce685bd5c37020af244acb20f8014dee73d738d00f987a23cfcfa3e0"
+    },
+    {
+      "path": "src/row16_provider_margin.sdc",
+      "bytes": 248,
+      "sha256": "df4c0d737f347bcc5d261c0c5c2e7783b9854d81d511eac1dcfa3a73a348655c"
+    },
+    {
+      "path": "src/row16_provider_signoff.sdc",
+      "bytes": 115,
+      "sha256": "8f5c5eb92ea629af987395a36ab1bd0461da7544a281e00866478424890fdb59"
+    },
+    {
+      "path": "src/tt_um_hardlpu_row16.v",
+      "bytes": 4232,
+      "sha256": "d2b110af9996aa5b2b0a5ab7d3f507be2998e35ff1ea9c541fa63ac1566d691e"
+    },
+    {
+      "path": "test/Makefile",
+      "bytes": 211,
+      "sha256": "254083ca0485fc2a84f83bdad196a32d620619c80a2203ea068bb2d299e0aeb5"
+    },
+    {
+      "path": "test/protocol.mem",
+      "bytes": 1987095,
+      "sha256": "af078dfaa9447ecf270dff4ef6cb6004d120a37a1a29099624d5263a2bf262c1"
+    },
+    {
+      "path": "test/run_tests.py",
+      "bytes": 4501,
+      "sha256": "ba6f8ef34e7307f9a393bc6f3699ee1a9826bc0f41de3dda24dd9cc360fec6b1"
+    },
+    {
+      "path": "test/tb.sv",
+      "bytes": 968,
+      "sha256": "a225e70a0da9f25e91bc87dd860e61f8752e6c8f7c0686edbd573d93a57314a1"
+    }
+  ],
+  "original_license": {
+    "bytes": 12441,
+    "sha256": "c4a5af90b83cd677f9277bb27d745af01f7c2672aa3fb5709d11b887f959290a"
+  },
+  "clock_hz": 40000000,
+  "tapeout_ready": false,
+  "submitted": false,
+  "silicon_measured": false,
+  "license_exception_approved": true
+}

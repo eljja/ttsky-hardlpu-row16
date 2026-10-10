@@ -1,0 +1,31 @@
+{
+  "owner": "eljja",
+  "spdx": "Apache-2.0",
+  "scope": "first-chip-row16-subset-only",
+  "public_repository_approved": true,
+  "additional_license_approved": true,
+  "main_project_license_changed": false,
+  "provider_terms_accepted": false,
+  "payment_authorized": false,
+  "revision_submitted": false,
+  "authorization_basis": "Explicit human approval in the working conversation on 2026-10-10; not a provider acceptance or signed legal opinion.",
+  "gds_sha256": "2b021eeda763d04cba4c2fc6e806ebf31eaedf4d6d125bd1f46fb9b55f373999",
+  "previous_manifest": {
+    "bytes": 5125,
+    "sha256": "9377cc7638676161ffe0ae70218150a3c759fa25c4d64638d36d25332252ef95"
+  },
+  "upstream_licenses": [
+    {
+      "url": "https://raw.githubusercontent.com/google/skywater-pdk-libs-sky130_fd_sc_hd/ac7fb61f06e6470b94e8afdf7c25268f62fbd7b1/LICENSE",
+      "path": "licenses/sky130_fd_sc_hd.LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen3-30B-A3B/resolve/ad44e777bcd18fa416d9da3bd8f70d33ebb85d39/LICENSE",
+      "path": "licenses/Qwen3.LICENSE",
+      "bytes": 11343,
+      "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e"
+    }
+  ]
+}

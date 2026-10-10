@@ -1,0 +1,336 @@
+{
+  "status": "LOCAL_PROVIDER_HARDEN_GATE_PRECHECK_PASSED",
+  "provider_hardening_passed": true,
+  "provider_precheck_passed": true,
+  "tapeout_ready": false,
+  "submitted": false,
+  "silicon_measured": false,
+  "source_run": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_antenna40_v1",
+  "runner": {
+    "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_antenna40_v1_finish/runner_source.py",
+    "bytes": 9082,
+    "sha256": "9fac81e2e533d00a7d425c2b7b1458cae42004abdce8b08ee56e13f2e4e5953e"
+  },
+  "runtime": {
+    "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_antenna40_v1_finish/runtime_source.py",
+    "bytes": 14851,
+    "sha256": "3bcd344e54a8a1e57f7e4016aa594cad2e9529465436988f040175ea416c63f0"
+  },
+  "bundle": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1",
+  "hardening": {
+    "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_antenna40_v1/summary.json",
+    "bytes": 23264,
+    "sha256": "a6a590a6e9e38c418279041a902dcfd8517a191495447a833047aaf07fc8805f"
+  },
+  "final_artifacts": [
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/commit_id.json",
+      "bytes": 389,
+      "sha256": "051f472c9cb4d31a7e53d92339c7f486ff4fb49c52dbc6980a6060fb396f7612"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/def/tt_um_hardlpu_row16.def",
+      "bytes": 7779025,
+      "sha256": "940553cb924c377e5f3872216e8379c7bc47cbd469427e19e60f341c1b50f306"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/gds/tt_um_hardlpu_row16.gds",
+      "bytes": 13946702,
+      "sha256": "2b021eeda763d04cba4c2fc6e806ebf31eaedf4d6d125bd1f46fb9b55f373999"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/json_h/tt_um_hardlpu_row16.h.json",
+      "bytes": 345679,
+      "sha256": "56f040146700e0b7c6b1bc977dc1b9ace9b4d922ca772734eb7f073c9d6430ff"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/klayout_gds/tt_um_hardlpu_row16.klayout.gds",
+      "bytes": 7189854,
+      "sha256": "192e6716897e2781b2e2bdbfe814714990eb9031e11bea6e6544eda69bc0c17f"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/lef/tt_um_hardlpu_row16.lef",
+      "bytes": 14690,
+      "sha256": "bc460c2f648fffca969901d6b1b5d1c0990b22c035d1cf214e26c9c7b0449256"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/lib/max_ff_n40C_1v95/tt_um_hardlpu_row16__max_ff_n40C_1v95.lib",
+      "bytes": 26342,
+      "sha256": "1a0624b850d8d5fe022bfe133bd5584107f88c3c0e214240281c5fa4b7acbb8a"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/lib/max_ss_100C_1v60/tt_um_hardlpu_row16__max_ss_100C_1v60.lib",
+      "bytes": 26351,
+      "sha256": "ce8501ccbbdb8b5c5a9998c528f6fab111d18d342dc064ee2f66ede7595e8050"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/lib/max_tt_025C_1v80/tt_um_hardlpu_row16__max_tt_025C_1v80.lib",
+      "bytes": 26341,
+      "sha256": "93cf9be5eb17e6b07e2127a69076618db4cde7b50d7726f8635d17141d8560ba"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/lib/min_ff_n40C_1v95/tt_um_hardlpu_row16__min_ff_n40C_1v95.lib",
+      "bytes": 26342,
+      "sha256": "193a1f78e3f2ca8ca7419b536ea495f0e3ea35b9ca94607610d13d91ae68b821"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/lib/min_ss_100C_1v60/tt_um_hardlpu_row16__min_ss_100C_1v60.lib",
+      "bytes": 26352,
+      "sha256": "ed8b6013bba4c7af58e889ed77949a771a1f6da1a426aa0df5ea41f0004ab1a4"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/lib/min_tt_025C_1v80/tt_um_hardlpu_row16__min_tt_025C_1v80.lib",
+      "bytes": 26341,
+      "sha256": "ff7d7e7a8b7c9d987d8a1a648d6b8e8c2b657008dccee2e2631a931328ec0365"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/lib/nom_ff_n40C_1v95/tt_um_hardlpu_row16__nom_ff_n40C_1v95.lib",
+      "bytes": 26342,
+      "sha256": "bb007aa73fa14ab55084cdf3ccdb5a91733c047a1e900d2b5aa0434cf0b88bc1"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/lib/nom_ss_100C_1v60/tt_um_hardlpu_row16__nom_ss_100C_1v60.lib",
+      "bytes": 26352,
+      "sha256": "005d1e3348a517d66b2be778fc7a87c3eec7ab00b239123d668196bf59ae67b9"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/lib/nom_tt_025C_1v80/tt_um_hardlpu_row16__nom_tt_025C_1v80.lib",
+      "bytes": 26341,
+      "sha256": "f04de549b73ca0c5f8340198cb5023f1a400cadce2c6fd8b3c1a765ddd801a01"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/mag/tt_um_hardlpu_row16.mag",
+      "bytes": 15873630,
+      "sha256": "0cde3a43b05df6460980e58d34025db21799b588bab3797447917f8ffa2e74d4"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/mag_gds/tt_um_hardlpu_row16.magic.gds",
+      "bytes": 13946702,
+      "sha256": "2b021eeda763d04cba4c2fc6e806ebf31eaedf4d6d125bd1f46fb9b55f373999"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/metrics.csv",
+      "bytes": 15520,
+      "sha256": "234e8155e0f0770ce43bbf749fbf68b096422b4fb4fc61cc96afc72fe1eb1ef6"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/metrics.json",
+      "bytes": 17457,
+      "sha256": "721ddb05659b8009de278280b298da4242caab968fe95cdf7042d36755fd0091"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/nl/tt_um_hardlpu_row16.nl.v",
+      "bytes": 1650902,
+      "sha256": "ace720c5f90dbc3351697955bb1842b36c0a44826a868f5e08aba6a88e5de9df"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/odb/tt_um_hardlpu_row16.odb",
+      "bytes": 16873268,
+      "sha256": "c586c7c19fe5d5f1757dee155935266c9a087569c76d933a03d90da9869de59b"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/pnl/tt_um_hardlpu_row16.pnl.v",
+      "bytes": 3159580,
+      "sha256": "e8fcdfb94a3c5614ffaf9068bf564833739131e22537716f73482c6d21319f39"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/render/tt_um_hardlpu_row16.png",
+      "bytes": 12695,
+      "sha256": "cea337fb92d35b6f837ffb879a5379fb2e43bcf8040a4a5b96b2d088f7f6f513"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/sdc/tt_um_hardlpu_row16.sdc",
+      "bytes": 8557,
+      "sha256": "91fa41e7075c2f210fa112c902cd5c8c336637153dbb230cd3ac7cc703c63acf"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/sdf/max_ff_n40C_1v95/tt_um_hardlpu_row16__max_ff_n40C_1v95.sdf",
+      "bytes": 3261618,
+      "sha256": "51ab87238eb2c6fc53e05816c08f941a2d90de05203b7ab60e3d7266f0139f1d"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/sdf/max_ss_100C_1v60/tt_um_hardlpu_row16__max_ss_100C_1v60.sdf",
+      "bytes": 3261618,
+      "sha256": "d9a5e765b21c5771864ded9166b806132806de500bec4a239c89a9d916b25416"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/sdf/max_tt_025C_1v80/tt_um_hardlpu_row16__max_tt_025C_1v80.sdf",
+      "bytes": 3261616,
+      "sha256": "4b3d994367dba454b20eca46aec98a074bc81d098f2a917df7cf7c6495f46d49"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/sdf/min_ff_n40C_1v95/tt_um_hardlpu_row16__min_ff_n40C_1v95.sdf",
+      "bytes": 3261618,
+      "sha256": "5328c80b380ff91ff2b9b749b73cc764af908c187e45ebd7c474e2a60943e4a1"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/sdf/min_ss_100C_1v60/tt_um_hardlpu_row16__min_ss_100C_1v60.sdf",
+      "bytes": 3261618,
+      "sha256": "b7f97c7c749568b4b45ce5256717ef1d5f475f76c5a15e5c1ee6cbc4389a08da"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/sdf/min_tt_025C_1v80/tt_um_hardlpu_row16__min_tt_025C_1v80.sdf",
+      "bytes": 3261616,
+      "sha256": "2a0a2c922ca6c49d6c78702ba09b99ade42b2a9df955ed0dfeead87e04f48958"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/sdf/nom_ff_n40C_1v95/tt_um_hardlpu_row16__nom_ff_n40C_1v95.sdf",
+      "bytes": 3261618,
+      "sha256": "773add8a24c5e818182ffd147f6bfe6b8f40b483f70ec21ff85d61ec21fcdd5f"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/sdf/nom_ss_100C_1v60/tt_um_hardlpu_row16__nom_ss_100C_1v60.sdf",
+      "bytes": 3261618,
+      "sha256": "11472ddce946e7c7fc4fc12207be8007c19aba3ff2f86bda2ce617f0612e187c"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/sdf/nom_tt_025C_1v80/tt_um_hardlpu_row16__nom_tt_025C_1v80.sdf",
+      "bytes": 3261616,
+      "sha256": "aab4bbfcc6284c30a0e468a6725a93ca0b5ea4ff643db9ded563a20eb68aa855"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/spef/max/tt_um_hardlpu_row16.max.spef",
+      "bytes": 7918878,
+      "sha256": "19d9aa019a538b7a901257afc1044fd3cd60f1eca29fcc12e3931e89e32edc26"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/spef/min/tt_um_hardlpu_row16.min.spef",
+      "bytes": 7345962,
+      "sha256": "e1657418f513b2eb1ebc93742f9ecaa996f3a25075daf7702fffa98ca0760b6d"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/spef/nom/tt_um_hardlpu_row16.nom.spef",
+      "bytes": 7470387,
+      "sha256": "8a25799f6e3486a9edee6c3b7cda24fc3922abcc2cb890a8dc3b89702441887d"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/spice/tt_um_hardlpu_row16.spice",
+      "bytes": 1767516,
+      "sha256": "056a371ed0af412952e628fc9df6cac43b3987dc9842ab0d649d26998888bc13"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/vh/tt_um_hardlpu_row16.vh",
+      "bytes": 277,
+      "sha256": "4d181a58f4f461af1e6c9b1a25cee4ccaad47710948d34c4d82cebece46630d2"
+    }
+  ],
+  "lvs_scope": "Official macro standard-cell/LEF abstraction LVS; not full-chip transistor LVS.",
+  "sta_scope": "OpenRCX min/nom/max RC x TT/SS/FF library checks with provider constraints; not foundry SI/OCV qualification.",
+  "energy_gain_proven": false,
+  "foundry_signoff": false,
+  "physical_checks_passed": true,
+  "physical_acceptance": {
+    "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_antenna40_v1_finish/physical_acceptance.json",
+    "bytes": 4215,
+    "sha256": "b4cff251cb4d1852939d54eea48942c155b9c16978466792b77407dcb00157bc"
+  },
+  "gate_golden_cycles": 180645,
+  "precheck_cases": 15,
+  "precheck_failures": 0,
+  "precheck_report": {
+    "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/tt/precheck/reports/results.xml",
+    "bytes": 873,
+    "sha256": "6e13cd4d3986be3729cc0e941db53a20c48e8de6e440183d6f28d1a12d353f82"
+  },
+  "precheck_scope": "Pinned official scripts/PDK/Python requirements; Magic/KLayout from LibreLane OCI, not official Nix derivation.",
+  "release_artifacts": [
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/tt_submission/commit_id.json",
+      "bytes": 389,
+      "sha256": "051f472c9cb4d31a7e53d92339c7f486ff4fb49c52dbc6980a6060fb396f7612"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/tt_submission/pdk.json",
+      "bytes": 164,
+      "sha256": "fb347b613b56f11fab6a9722126b5323430895f587261ea769a47a35c912d23f"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/tt_submission/resolved.json",
+      "bytes": 176706,
+      "sha256": "5a6729731a9c2721d3176d492b3fa2e071879572fcbe41ac1191d598aa3febca"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/tt_submission/stats/metrics.csv",
+      "bytes": 15520,
+      "sha256": "234e8155e0f0770ce43bbf749fbf68b096422b4fb4fc61cc96afc72fe1eb1ef6"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/tt_submission/stats/synthesis-stats.txt",
+      "bytes": 3314,
+      "sha256": "ff092e95e04149d80d1edc8282c7b8ac2e797dbcf753ace1442a087989a23429"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/tt_submission/tt_um_hardlpu_row16.gds",
+      "bytes": 13946702,
+      "sha256": "2b021eeda763d04cba4c2fc6e806ebf31eaedf4d6d125bd1f46fb9b55f373999"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/tt_submission/tt_um_hardlpu_row16.lef",
+      "bytes": 14690,
+      "sha256": "bc460c2f648fffca969901d6b1b5d1c0990b22c035d1cf214e26c9c7b0449256"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/tt_submission/tt_um_hardlpu_row16.max.spef",
+      "bytes": 7918878,
+      "sha256": "19d9aa019a538b7a901257afc1044fd3cd60f1eca29fcc12e3931e89e32edc26"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/tt_submission/tt_um_hardlpu_row16.min.spef",
+      "bytes": 7345962,
+      "sha256": "e1657418f513b2eb1ebc93742f9ecaa996f3a25075daf7702fffa98ca0760b6d"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/tt_submission/tt_um_hardlpu_row16.nom.spef",
+      "bytes": 7470387,
+      "sha256": "8a25799f6e3486a9edee6c3b7cda24fc3922abcc2cb890a8dc3b89702441887d"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/tt_submission/tt_um_hardlpu_row16.oas",
+      "bytes": 657751,
+      "sha256": "101860e92613b71471fd3d367943da59747b4c9811afe8067a544a069932f43d"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/tt_submission/tt_um_hardlpu_row16.v",
+      "bytes": 3159580,
+      "sha256": "e8fcdfb94a3c5614ffaf9068bf564833739131e22537716f73482c6d21319f39"
+    }
+  ],
+  "remaining": "License/release approval and provider acceptance; no foundry/full-chip or silicon claim.",
+  "executions": [
+    {
+      "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_antenna40_v1_finish/gate.execution.json",
+      "bytes": 1099,
+      "sha256": "e919996b2a13435d781fb6a96d8c194979d623a236b87a9262557be4ef775552"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_antenna40_v1_finish/package.execution.json",
+      "bytes": 1100,
+      "sha256": "89588684ccdaf8649fc361eb92566d50e2c9fe8dfe02f1d895fe37c816fc0ce5"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_antenna40_v1_finish/precheck.execution.json",
+      "bytes": 1160,
+      "sha256": "5b1dfcd8fe6516c5ec071506af9a7f1079896d111409fdd0db39627e6fb9f056"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_antenna40_v1_finish/precheck_dependencies.execution.json",
+      "bytes": 1192,
+      "sha256": "c7ab03df2d2340ab5a7b2e47d2418b3a9ee757d60133a267c5d0e12afc55ead9"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_antenna40_v1_finish/precheck_pdk.execution.json",
+      "bytes": 1095,
+      "sha256": "8975248a838d761b616289eafde5f5bd985d311e5ee1cf830802f4dc2aaca63b"
+    },
+    {
+      "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_antenna40_v1_finish/precheck_tools.execution.json",
+      "bytes": 1023,
+      "sha256": "6e54789bbac2c38786d17fd6ba4d8b30fd908b39570721c04a02c868ba569558"
+    }
+  ],
+  "daemon_exit.json": {
+    "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_antenna40_v1_finish/daemon_exit.json",
+    "bytes": 481,
+    "sha256": "6484dbf5233562d8520228efd392977475f01c6b659fc4f15f1f779d2024c2c8"
+  }
+}

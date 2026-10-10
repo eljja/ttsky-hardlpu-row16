@@ -1,0 +1,39 @@
+project:
+  title: HardLPU row16 fixed versus FF test
+  author: eljja
+  discord: ''
+  description: Byte-access INT8 x INT4 reduction with fixed and 64-FF weights
+  language: SystemVerilog
+  clock_hz: 40000000
+  tiles: 4x2
+  top_module: tt_um_hardlpu_row16
+  source_files:
+  - int4_synapse_dot4.sv
+  - int4_row16.sv
+  - tt_um_hardlpu_row16.v
+pinout:
+  ui[0]: data[0]
+  ui[1]: data[1]
+  ui[2]: data[2]
+  ui[3]: data[3]
+  ui[4]: data[4]
+  ui[5]: data[5]
+  ui[6]: data[6]
+  ui[7]: data[7]
+  uo[0]: read_data[0]
+  uo[1]: read_data[1]
+  uo[2]: read_data[2]
+  uo[3]: read_data[3]
+  uo[4]: read_data[4]
+  uo[5]: read_data[5]
+  uo[6]: read_data[6]
+  uo[7]: read_data[7]
+  uio[0]: result_ready (OUTPUT)
+  uio[1]: busy (OUTPUT)
+  uio[2]: weights_ready (OUTPUT)
+  uio[3]: sticky_error (OUTPUT)
+  uio[4]: strobe (INPUT)
+  uio[5]: opcode[0] (INPUT)
+  uio[6]: opcode[1] (INPUT)
+  uio[7]: opcode[2] (INPUT)
+yaml_version: 6

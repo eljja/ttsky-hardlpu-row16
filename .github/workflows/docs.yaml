@@ -1,0 +1,16 @@
+name: docs
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  docs:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+      - run: python3 -m pip install pyyaml==6.0.2
+      - run: python3 scripts/verify_release.py .
+      - uses: TinyTapeout/tt-gds-action/docs@e013b994dc124e6bbce5e4ae54d93908ac98141e
+        with:
+          tools-ref: 01d5d2814fa9dd61e9d211e0b235a4a592a9316a

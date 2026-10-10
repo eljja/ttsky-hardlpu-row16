@@ -1,0 +1,68 @@
+name: gds
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  gds:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v6
+      - run: python3 -m pip install pyyaml==6.0.2
+      - name: Verify frozen local release, not a new synthesis
+        run: python3 scripts/verify_release.py .
+      - uses: TinyTapeout/tt-gds-action/custom_gds@e013b994dc124e6bbce5e4ae54d93908ac98141e
+        with:
+          pdk: sky130A
+          top_module: tt_um_hardlpu_row16
+          gds_path: gds/tt_um_hardlpu_row16.gds
+          lef_path: lef/tt_um_hardlpu_row16.lef
+          verilog_path: netlist/tt_um_hardlpu_row16.v
+          tools-ref: 01d5d2814fa9dd61e9d211e0b235a4a592a9316a
+  precheck:
+    needs: gds
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: TinyTapeout/tt-gds-action/precheck@e013b994dc124e6bbce5e4ae54d93908ac98141e
+        with:
+          tools-ref: 01d5d2814fa9dd61e9d211e0b235a4a592a9316a
+  gl_test:
+    needs: gds
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/download-artifact@v7
+        with:
+          name: tt_submission
+          path: downloaded
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - run: python3 -m pip install pyyaml==6.0.2
+      - name: Reject artifact substitution before simulation
+        run: python3 scripts/verify_release.py . --artifact downloaded/tt_submission
+      # custom_gds pdk.json omits the revision required by the stock gl_test action.
+      - uses: TinyTapeout/ciel-action@v1
+        with:
+          pdk_name: sky130A
+          pdk_version: 8afc8346a57fe1ab7934ba5a6056ea8b43078e71
+          pdk_root: /home/runner/pdk
+      - name: Install simulator
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y iverilog
+      - name: Full pin regression on the uploaded powered netlist
+        env:
+          PDK_ROOT: /home/runner/pdk
+        run: |
+          timeout --kill-after=10s 330s python3 test/run_tests.py --netlist downloaded/tt_submission/tt_um_hardlpu_row16.v
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: gatelevel_test_results
+          path: |
+            test/results.xml
+            test/output/**
