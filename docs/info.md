@@ -14,15 +14,15 @@ strobe/opcode. Reset or ena=0 clears protocol state; never drive output pins.
 Assert rst_n=0 for at least two rising edges, then ena=1 and rst_n=1.
 Set uio_in[7:5] to opcode and pulse bit4 at a rising edge.
 
-| Opcode | Command | Purpose |
-| --- | --- | --- |
-| 1 | CLEAR | Clear transaction state |
-| 2 | PUSH_X | Append one signed input byte |
-| 3 | EXEC_FIXED | Run fixed-weight HardLPU |
-| 4 | EXEC_PROGRAMMABLE | Run the 64-FF control |
-| 5 | PUSH_WEIGHTS | Append two packed INT4 weights |
-| 6 | COMMIT_WEIGHTS | Commit eight weight bytes |
-| 7 | READ | Read result or status by index |
+| Opcode | Operation |
+| --- | --- |
+| 1 | CLEAR |
+| 2 | PUSH_X |
+| 3 | EXEC_FIXED |
+| 4 | EXEC_PROGRAMMABLE |
+| 5 | PUSH_WEIGHTS |
+| 6 | COMMIT_WEIGHTS |
+| 7 | READ |
 
 All operand/config bytes use ui_in.
 Push16 signed input bytes after CLEAR. Push8 packed signed-INT4 bytes and
@@ -44,6 +44,6 @@ The packaged 4x2 ECO GDS is the release candidate. Use the custom-GDS workflow;
 do not substitute a fresh RTL build without requalification.
 
 Local open-PDK checks: route/Magic DRC0, abstract macro LVS0, antenna0.
-Nine RC/PVT checks at25ns: setup+3.355ns, hold+0.002014ns. The small
-hold margin needs provider integration review. These are not full-chip
+Nine RC/PVT checks at25ns: setup+2.915870294ns, hold+0.132688364ns.
+Clock/IO assumptions need provider integration review. These are not full-chip
 foundry signoff, measured silicon or evidence of SRAM energy superiority.
