@@ -33,8 +33,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2360,
-      "sha256": "f3d6f49130eacd0192ce6c762517c3862c36650eb88de3ca6bfb6fd940c40114"
+      "bytes": 2370,
+      "sha256": "2c5bfbde65307d787e54a35e9695d081808d78125ba2405e2927015527f05b77"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -53,8 +53,8 @@
     },
     {
       "path": "docs/info.md",
-      "bytes": 2383,
-      "sha256": "3abd1eaf49edb04e12bc0c5ee53b12ab276cdc772b3c56ab28dd148ef9e66a4f"
+      "bytes": 2174,
+      "sha256": "27db6ecd493759ee919acab1ba4d6f3db04b96f78c6644a5f353d623b0f89234"
     },
     {
       "path": "docs/sky130_fd_sc_hd.LICENSE",
@@ -63,23 +63,23 @@
     },
     {
       "path": "evidence/original_source_manifest.json",
-      "bytes": 3495,
-      "sha256": "cf415e61ad52bb7c39bfda95340d0f4a3403c45fa890bb0a33abbc47f65fa9bc"
+      "bytes": 3447,
+      "sha256": "c1ca420c497973dc5f1f92bae41ec892d6bd483f2ac11e45ef9902298fbd9401"
     },
     {
       "path": "evidence/physical_acceptance.json",
-      "bytes": 4215,
-      "sha256": "b4cff251cb4d1852939d54eea48942c155b9c16978466792b77407dcb00157bc"
+      "bytes": 4212,
+      "sha256": "5c91b3bbab1a671f228ecb74d4ab217504d45e81ff034ed1b41bd53cb8c8d952"
     },
     {
       "path": "evidence/provider_finish.json",
-      "bytes": 16124,
-      "sha256": "dd5c32b0b679e35a7c9a85a8dba744d5316bfbf868f221ccd49ce74bdaae5293"
+      "bytes": 15932,
+      "sha256": "7e61d8d083d6eddde3c007f5f8ac36bbbccb4606acd28176973df90955b1e26d"
     },
     {
       "path": "evidence/provider_finish_audit.json",
-      "bytes": 535,
-      "sha256": "f1254916fea173485d0400630a03ffb3c64b0f3b0c1070b0302c44772219455a"
+      "bytes": 532,
+      "sha256": "c390700eac4224c984bbc1c0e36a0d1e86208afb89c9aad2eb42b3dac1bd342e"
     },
     {
       "path": "evidence/qwen3_slice_manifest.json",
@@ -88,13 +88,13 @@
     },
     {
       "path": "evidence/release_authorization.json",
-      "bytes": 1276,
-      "sha256": "eb84e68ce4a7003d300f74e0c790ffdaccb2ee9c1a62f80567b090f53743e3ae"
+      "bytes": 1358,
+      "sha256": "0c829c3518ffc9babecd08bdec0c48e6f5dd133858628650fdb48464a3e30d3d"
     },
     {
       "path": "gds/tt_um_hardlpu_row16.gds",
-      "bytes": 13946702,
-      "sha256": "2b021eeda763d04cba4c2fc6e806ebf31eaedf4d6d125bd1f46fb9b55f373999"
+      "bytes": 14069546,
+      "sha256": "ec0c0fe69b5f9d0a9163beff2be7d4da5008dd60642fdf681bd1fe884898839f"
     },
     {
       "path": "info.yaml",
@@ -104,7 +104,7 @@
     {
       "path": "lef/tt_um_hardlpu_row16.lef",
       "bytes": 14690,
-      "sha256": "bc460c2f648fffca969901d6b1b5d1c0990b22c035d1cf214e26c9c7b0449256"
+      "sha256": "3856f2b860dde928772e5d90a9337d669a38394cac3bada9e5c7dbc9907ddfe7"
     },
     {
       "path": "licenses/Qwen3.LICENSE",
@@ -118,13 +118,13 @@
     },
     {
       "path": "netlist/tt_um_hardlpu_row16.v",
-      "bytes": 3159580,
-      "sha256": "e8fcdfb94a3c5614ffaf9068bf564833739131e22537716f73482c6d21319f39"
+      "bytes": 3140561,
+      "sha256": "62c5d5f8992a8974075e8fd54e63a50be80e1e9894010e5c54fb6d5b13ebbd75"
     },
     {
       "path": "scripts/row16_provider_acceptance.py",
-      "bytes": 1603,
-      "sha256": "85c717c648bc2607d458211681b85b63630ddc4f8324d9c995d9346936adc788"
+      "bytes": 2709,
+      "sha256": "2dfff7fd86b1aa09eaf5a0ced537e87ed0d75f257e70eec6d8a4adf81ce2f05f"
     },
     {
       "path": "scripts/verify_release.py",
@@ -133,18 +133,18 @@
     },
     {
       "path": "spef/tt_um_hardlpu_row16.max.spef",
-      "bytes": 7918878,
-      "sha256": "19d9aa019a538b7a901257afc1044fd3cd60f1eca29fcc12e3931e89e32edc26"
+      "bytes": 8034730,
+      "sha256": "c72c0036b8e1c0078a932b22a15f09365b395b6dfcb30ea80cf5fda5f5344a2f"
     },
     {
       "path": "spef/tt_um_hardlpu_row16.min.spef",
-      "bytes": 7345962,
-      "sha256": "e1657418f513b2eb1ebc93742f9ecaa996f3a25075daf7702fffa98ca0760b6d"
+      "bytes": 7447502,
+      "sha256": "e8758cb84a7ea7e35b23929f42740d10a941c03e7d438f936206b05951175f5f"
     },
     {
       "path": "spef/tt_um_hardlpu_row16.nom.spef",
-      "bytes": 7470387,
-      "sha256": "8a25799f6e3486a9edee6c3b7cda24fc3922abcc2cb890a8dc3b89702441887d"
+      "bytes": 7574915,
+      "sha256": "c6d37f0fd386e147755950d04a95d2d07d7616663eff250c0abce9e8b1b4401f"
     },
     {
       "path": "src/config.json",

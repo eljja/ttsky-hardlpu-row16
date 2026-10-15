@@ -8,11 +8,11 @@
   "provider_terms_accepted": false,
   "payment_authorized": false,
   "revision_submitted": false,
-  "authorization_basis": "Explicit human approval in the working conversation on 2026-10-10; not a provider acceptance or signed legal opinion.",
-  "gds_sha256": "2b021eeda763d04cba4c2fc6e806ebf31eaedf4d6d125bd1f46fb9b55f373999",
+  "authorization_basis": "Scoped Apache approval on 2026-10-10; explicit human approval to publish this first-chip update and run CI on 2026-10-14. Not provider acceptance, transaction authorization or a signed legal opinion.",
+  "gds_sha256": "ec0c0fe69b5f9d0a9163beff2be7d4da5008dd60642fdf681bd1fe884898839f",
   "previous_manifest": {
     "bytes": 5125,
-    "sha256": "9377cc7638676161ffe0ae70218150a3c759fa25c4d64638d36d25332252ef95"
+    "sha256": "4bd6aa9f4422c26d0e6e8e7629e3d26e3444538d47376b436e7d0d012836afd1"
   },
   "upstream_licenses": [
     {

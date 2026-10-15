@@ -5,211 +5,211 @@
   "tapeout_ready": false,
   "submitted": false,
   "silicon_measured": false,
-  "source_run": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_antenna40_v1",
+  "source_run": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_hold40_v1",
   "runner": {
-    "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_antenna40_v1_finish/runner_source.py",
+    "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_hold40_v1_finish/runner_source.py",
     "bytes": 9082,
     "sha256": "9fac81e2e533d00a7d425c2b7b1458cae42004abdce8b08ee56e13f2e4e5953e"
   },
   "runtime": {
-    "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_antenna40_v1_finish/runtime_source.py",
+    "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_hold40_v1_finish/runtime_source.py",
     "bytes": 14851,
     "sha256": "3bcd344e54a8a1e57f7e4016aa594cad2e9529465436988f040175ea416c63f0"
   },
-  "bundle": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1",
+  "bundle": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1",
   "hardening": {
-    "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_antenna40_v1/summary.json",
-    "bytes": 23264,
-    "sha256": "a6a590a6e9e38c418279041a902dcfd8517a191495447a833047aaf07fc8805f"
+    "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_hold40_v1/summary.json",
+    "bytes": 23557,
+    "sha256": "725168a530a5b10d9ce07f6a34d5fa4efd54e77a8e91d09958e181fc12030e09"
   },
   "final_artifacts": [
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/commit_id.json",
-      "bytes": 389,
-      "sha256": "051f472c9cb4d31a7e53d92339c7f486ff4fb49c52dbc6980a6060fb396f7612"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/commit_id.json",
+      "bytes": 386,
+      "sha256": "b8e951c8cc68a7d5ebd5a3ce021f76895444861593efd5f5b7caff05b706b472"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/def/tt_um_hardlpu_row16.def",
-      "bytes": 7779025,
-      "sha256": "940553cb924c377e5f3872216e8379c7bc47cbd469427e19e60f341c1b50f306"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/def/tt_um_hardlpu_row16.def",
+      "bytes": 7844035,
+      "sha256": "e8c654ecc9f7df19534ebcbe1e854f0d3f6171fa8dd119159057a7f7038db3f7"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/gds/tt_um_hardlpu_row16.gds",
-      "bytes": 13946702,
-      "sha256": "2b021eeda763d04cba4c2fc6e806ebf31eaedf4d6d125bd1f46fb9b55f373999"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/gds/tt_um_hardlpu_row16.gds",
+      "bytes": 14069546,
+      "sha256": "ec0c0fe69b5f9d0a9163beff2be7d4da5008dd60642fdf681bd1fe884898839f"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/json_h/tt_um_hardlpu_row16.h.json",
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/json_h/tt_um_hardlpu_row16.h.json",
       "bytes": 345679,
       "sha256": "56f040146700e0b7c6b1bc977dc1b9ace9b4d922ca772734eb7f073c9d6430ff"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/klayout_gds/tt_um_hardlpu_row16.klayout.gds",
-      "bytes": 7189854,
-      "sha256": "192e6716897e2781b2e2bdbfe814714990eb9031e11bea6e6544eda69bc0c17f"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/klayout_gds/tt_um_hardlpu_row16.klayout.gds",
+      "bytes": 7260160,
+      "sha256": "82ee122705b635bfac90e55e1db12249fb518ba2419bb3d28e70a2e1397dc1a4"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/lef/tt_um_hardlpu_row16.lef",
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/lef/tt_um_hardlpu_row16.lef",
       "bytes": 14690,
-      "sha256": "bc460c2f648fffca969901d6b1b5d1c0990b22c035d1cf214e26c9c7b0449256"
+      "sha256": "3856f2b860dde928772e5d90a9337d669a38394cac3bada9e5c7dbc9907ddfe7"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/lib/max_ff_n40C_1v95/tt_um_hardlpu_row16__max_ff_n40C_1v95.lib",
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/lib/max_ff_n40C_1v95/tt_um_hardlpu_row16__max_ff_n40C_1v95.lib",
       "bytes": 26342,
-      "sha256": "1a0624b850d8d5fe022bfe133bd5584107f88c3c0e214240281c5fa4b7acbb8a"
+      "sha256": "7c811baaca25c6c600d83416288a140ce086a66c95f93cc3b253280fbca1c968"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/lib/max_ss_100C_1v60/tt_um_hardlpu_row16__max_ss_100C_1v60.lib",
-      "bytes": 26351,
-      "sha256": "ce8501ccbbdb8b5c5a9998c528f6fab111d18d342dc064ee2f66ede7595e8050"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/lib/max_ss_100C_1v60/tt_um_hardlpu_row16__max_ss_100C_1v60.lib",
+      "bytes": 26357,
+      "sha256": "d09653dbb386fc8e4e840128af7ec5965c547450ef4fd6283ba40fa19d0f1fc4"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/lib/max_tt_025C_1v80/tt_um_hardlpu_row16__max_tt_025C_1v80.lib",
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/lib/max_tt_025C_1v80/tt_um_hardlpu_row16__max_tt_025C_1v80.lib",
       "bytes": 26341,
-      "sha256": "93cf9be5eb17e6b07e2127a69076618db4cde7b50d7726f8635d17141d8560ba"
+      "sha256": "70f04a459a91def60ccedfba437fec673c5e065565b847221cf739667fa4ea2e"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/lib/min_ff_n40C_1v95/tt_um_hardlpu_row16__min_ff_n40C_1v95.lib",
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/lib/min_ff_n40C_1v95/tt_um_hardlpu_row16__min_ff_n40C_1v95.lib",
       "bytes": 26342,
-      "sha256": "193a1f78e3f2ca8ca7419b536ea495f0e3ea35b9ca94607610d13d91ae68b821"
+      "sha256": "1135afbdbb05f267010722094c2b18ac6a6d6f835f24ca27879dff90f77dc41f"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/lib/min_ss_100C_1v60/tt_um_hardlpu_row16__min_ss_100C_1v60.lib",
-      "bytes": 26352,
-      "sha256": "ed8b6013bba4c7af58e889ed77949a771a1f6da1a426aa0df5ea41f0004ab1a4"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/lib/min_ss_100C_1v60/tt_um_hardlpu_row16__min_ss_100C_1v60.lib",
+      "bytes": 26359,
+      "sha256": "c5a39a6f7aae9038f24472c9c73ceadfd37274be9d313be5f50a677647fc9424"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/lib/min_tt_025C_1v80/tt_um_hardlpu_row16__min_tt_025C_1v80.lib",
-      "bytes": 26341,
-      "sha256": "ff7d7e7a8b7c9d987d8a1a648d6b8e8c2b657008dccee2e2631a931328ec0365"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/lib/min_tt_025C_1v80/tt_um_hardlpu_row16__min_tt_025C_1v80.lib",
+      "bytes": 26343,
+      "sha256": "e5833ad9c5e347e40574cd6bf70477008193d796ce7284ced5dbb3d5e138e2bf"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/lib/nom_ff_n40C_1v95/tt_um_hardlpu_row16__nom_ff_n40C_1v95.lib",
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/lib/nom_ff_n40C_1v95/tt_um_hardlpu_row16__nom_ff_n40C_1v95.lib",
       "bytes": 26342,
-      "sha256": "bb007aa73fa14ab55084cdf3ccdb5a91733c047a1e900d2b5aa0434cf0b88bc1"
+      "sha256": "658a044062d07dc8ac03b85ebee07a29e7a075fd43e0ec817674f82ee26c10c1"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/lib/nom_ss_100C_1v60/tt_um_hardlpu_row16__nom_ss_100C_1v60.lib",
-      "bytes": 26352,
-      "sha256": "005d1e3348a517d66b2be778fc7a87c3eec7ab00b239123d668196bf59ae67b9"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/lib/nom_ss_100C_1v60/tt_um_hardlpu_row16__nom_ss_100C_1v60.lib",
+      "bytes": 26357,
+      "sha256": "50ef3708e6d1e02a2096949086696ec77ad2880bc2acdef2270796ecde31b0a2"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/lib/nom_tt_025C_1v80/tt_um_hardlpu_row16__nom_tt_025C_1v80.lib",
-      "bytes": 26341,
-      "sha256": "f04de549b73ca0c5f8340198cb5023f1a400cadce2c6fd8b3c1a765ddd801a01"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/lib/nom_tt_025C_1v80/tt_um_hardlpu_row16__nom_tt_025C_1v80.lib",
+      "bytes": 26342,
+      "sha256": "fa2c4289502ae6cf52f693a97010076f14217f1eded92907087923eda26fe3c9"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/mag/tt_um_hardlpu_row16.mag",
-      "bytes": 15873630,
-      "sha256": "0cde3a43b05df6460980e58d34025db21799b588bab3797447917f8ffa2e74d4"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/mag/tt_um_hardlpu_row16.mag",
+      "bytes": 15996381,
+      "sha256": "207bf3b826c2143b2761f8dd0879c2061ae69885e0cf75a1f9b02167f9166994"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/mag_gds/tt_um_hardlpu_row16.magic.gds",
-      "bytes": 13946702,
-      "sha256": "2b021eeda763d04cba4c2fc6e806ebf31eaedf4d6d125bd1f46fb9b55f373999"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/mag_gds/tt_um_hardlpu_row16.magic.gds",
+      "bytes": 14069546,
+      "sha256": "ec0c0fe69b5f9d0a9163beff2be7d4da5008dd60642fdf681bd1fe884898839f"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/metrics.csv",
-      "bytes": 15520,
-      "sha256": "234e8155e0f0770ce43bbf749fbf68b096422b4fb4fc61cc96afc72fe1eb1ef6"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/metrics.csv",
+      "bytes": 15561,
+      "sha256": "0162531668bd27d05a9fe87ce84dbb072fa76c7f593281aac39de0918bd6d87d"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/metrics.json",
-      "bytes": 17457,
-      "sha256": "721ddb05659b8009de278280b298da4242caab968fe95cdf7042d36755fd0091"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/metrics.json",
+      "bytes": 17506,
+      "sha256": "98b677538feddbf598bdb747b5ae2696c0dc23e0e43f20769427b19707e09aea"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/nl/tt_um_hardlpu_row16.nl.v",
-      "bytes": 1650902,
-      "sha256": "ace720c5f90dbc3351697955bb1842b36c0a44826a868f5e08aba6a88e5de9df"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/nl/tt_um_hardlpu_row16.nl.v",
+      "bytes": 1645851,
+      "sha256": "347e119670a6791291cb733b395b82b6640d34a7b9944661c3a571256ca8495a"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/odb/tt_um_hardlpu_row16.odb",
-      "bytes": 16873268,
-      "sha256": "c586c7c19fe5d5f1757dee155935266c9a087569c76d933a03d90da9869de59b"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/odb/tt_um_hardlpu_row16.odb",
+      "bytes": 16937939,
+      "sha256": "1e5e32d69dd70b89eb86b0429f9f3f99aa79610df42f90a53e35b9ccc725accc"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/pnl/tt_um_hardlpu_row16.pnl.v",
-      "bytes": 3159580,
-      "sha256": "e8fcdfb94a3c5614ffaf9068bf564833739131e22537716f73482c6d21319f39"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/pnl/tt_um_hardlpu_row16.pnl.v",
+      "bytes": 3140561,
+      "sha256": "62c5d5f8992a8974075e8fd54e63a50be80e1e9894010e5c54fb6d5b13ebbd75"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/render/tt_um_hardlpu_row16.png",
-      "bytes": 12695,
-      "sha256": "cea337fb92d35b6f837ffb879a5379fb2e43bcf8040a4a5b96b2d088f7f6f513"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/render/tt_um_hardlpu_row16.png",
+      "bytes": 12793,
+      "sha256": "4fec556b4502121adbe7e8c36d8d88039ddb2d94068f4a12d3d57c1a426245bc"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/sdc/tt_um_hardlpu_row16.sdc",
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/sdc/tt_um_hardlpu_row16.sdc",
       "bytes": 8557,
       "sha256": "91fa41e7075c2f210fa112c902cd5c8c336637153dbb230cd3ac7cc703c63acf"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/sdf/max_ff_n40C_1v95/tt_um_hardlpu_row16__max_ff_n40C_1v95.sdf",
-      "bytes": 3261618,
-      "sha256": "51ab87238eb2c6fc53e05816c08f941a2d90de05203b7ab60e3d7266f0139f1d"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/sdf/max_ff_n40C_1v95/tt_um_hardlpu_row16__max_ff_n40C_1v95.sdf",
+      "bytes": 3302715,
+      "sha256": "c82d53930ee3653f2e85ed94af1917ca1bce42718010b17dd63741db4c105b2a"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/sdf/max_ss_100C_1v60/tt_um_hardlpu_row16__max_ss_100C_1v60.sdf",
-      "bytes": 3261618,
-      "sha256": "d9a5e765b21c5771864ded9166b806132806de500bec4a239c89a9d916b25416"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/sdf/max_ss_100C_1v60/tt_um_hardlpu_row16__max_ss_100C_1v60.sdf",
+      "bytes": 3302695,
+      "sha256": "7e9e8057162f695ef8f400c8d5788ff0f8df8a4a5ee40f52197dc472e032c0f5"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/sdf/max_tt_025C_1v80/tt_um_hardlpu_row16__max_tt_025C_1v80.sdf",
-      "bytes": 3261616,
-      "sha256": "4b3d994367dba454b20eca46aec98a074bc81d098f2a917df7cf7c6495f46d49"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/sdf/max_tt_025C_1v80/tt_um_hardlpu_row16__max_tt_025C_1v80.sdf",
+      "bytes": 3302713,
+      "sha256": "61da958ecbc8788f0604f01b49901dbf718da1488377b6102eac630ed1e0990e"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/sdf/min_ff_n40C_1v95/tt_um_hardlpu_row16__min_ff_n40C_1v95.sdf",
-      "bytes": 3261618,
-      "sha256": "5328c80b380ff91ff2b9b749b73cc764af908c187e45ebd7c474e2a60943e4a1"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/sdf/min_ff_n40C_1v95/tt_um_hardlpu_row16__min_ff_n40C_1v95.sdf",
+      "bytes": 3302715,
+      "sha256": "a6cbf5c83e940e5dcb4a7509d6e074747600f2fc41a5ebc70c8c38932a21808e"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/sdf/min_ss_100C_1v60/tt_um_hardlpu_row16__min_ss_100C_1v60.sdf",
-      "bytes": 3261618,
-      "sha256": "b7f97c7c749568b4b45ce5256717ef1d5f475f76c5a15e5c1ee6cbc4389a08da"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/sdf/min_ss_100C_1v60/tt_um_hardlpu_row16__min_ss_100C_1v60.sdf",
+      "bytes": 3302715,
+      "sha256": "22a3fcd6951329e6b0ada13a3548bf2144a3d9e338d1f049ce4c56068f2a4503"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/sdf/min_tt_025C_1v80/tt_um_hardlpu_row16__min_tt_025C_1v80.sdf",
-      "bytes": 3261616,
-      "sha256": "2a0a2c922ca6c49d6c78702ba09b99ade42b2a9df955ed0dfeead87e04f48958"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/sdf/min_tt_025C_1v80/tt_um_hardlpu_row16__min_tt_025C_1v80.sdf",
+      "bytes": 3302713,
+      "sha256": "384244ad9a6a505590c18a37aa47c244844b7bacb0e6b28ed52c15c22917adf0"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/sdf/nom_ff_n40C_1v95/tt_um_hardlpu_row16__nom_ff_n40C_1v95.sdf",
-      "bytes": 3261618,
-      "sha256": "773add8a24c5e818182ffd147f6bfe6b8f40b483f70ec21ff85d61ec21fcdd5f"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/sdf/nom_ff_n40C_1v95/tt_um_hardlpu_row16__nom_ff_n40C_1v95.sdf",
+      "bytes": 3302715,
+      "sha256": "88c3a59d4141ec712dc0fd745911ec6aa0e9471df155e69782fc430bedb2a6f7"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/sdf/nom_ss_100C_1v60/tt_um_hardlpu_row16__nom_ss_100C_1v60.sdf",
-      "bytes": 3261618,
-      "sha256": "11472ddce946e7c7fc4fc12207be8007c19aba3ff2f86bda2ce617f0612e187c"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/sdf/nom_ss_100C_1v60/tt_um_hardlpu_row16__nom_ss_100C_1v60.sdf",
+      "bytes": 3302715,
+      "sha256": "5d14e7c2415c3af65173ca178459f6adf4ae1ab3e79362fe6740ee4ec1ea7451"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/sdf/nom_tt_025C_1v80/tt_um_hardlpu_row16__nom_tt_025C_1v80.sdf",
-      "bytes": 3261616,
-      "sha256": "aab4bbfcc6284c30a0e468a6725a93ca0b5ea4ff643db9ded563a20eb68aa855"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/sdf/nom_tt_025C_1v80/tt_um_hardlpu_row16__nom_tt_025C_1v80.sdf",
+      "bytes": 3302713,
+      "sha256": "e784edabd21306482b3b80209b8cc6e951b70cfa71bf87f1624dbdbd5a9db569"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/spef/max/tt_um_hardlpu_row16.max.spef",
-      "bytes": 7918878,
-      "sha256": "19d9aa019a538b7a901257afc1044fd3cd60f1eca29fcc12e3931e89e32edc26"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/spef/max/tt_um_hardlpu_row16.max.spef",
+      "bytes": 8034730,
+      "sha256": "c72c0036b8e1c0078a932b22a15f09365b395b6dfcb30ea80cf5fda5f5344a2f"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/spef/min/tt_um_hardlpu_row16.min.spef",
-      "bytes": 7345962,
-      "sha256": "e1657418f513b2eb1ebc93742f9ecaa996f3a25075daf7702fffa98ca0760b6d"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/spef/min/tt_um_hardlpu_row16.min.spef",
+      "bytes": 7447502,
+      "sha256": "e8758cb84a7ea7e35b23929f42740d10a941c03e7d438f936206b05951175f5f"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/spef/nom/tt_um_hardlpu_row16.nom.spef",
-      "bytes": 7470387,
-      "sha256": "8a25799f6e3486a9edee6c3b7cda24fc3922abcc2cb890a8dc3b89702441887d"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/spef/nom/tt_um_hardlpu_row16.nom.spef",
+      "bytes": 7574915,
+      "sha256": "c6d37f0fd386e147755950d04a95d2d07d7616663eff250c0abce9e8b1b4401f"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/spice/tt_um_hardlpu_row16.spice",
-      "bytes": 1767516,
-      "sha256": "056a371ed0af412952e628fc9df6cac43b3987dc9842ab0d649d26998888bc13"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/spice/tt_um_hardlpu_row16.spice",
+      "bytes": 1756237,
+      "sha256": "068a84181408d95fdf5b03060fca6a74ae285c806659d4d1a494839e463ac959"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/runs/wokwi/final/vh/tt_um_hardlpu_row16.vh",
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/runs/wokwi/final/vh/tt_um_hardlpu_row16.vh",
       "bytes": 277,
       "sha256": "4d181a58f4f461af1e6c9b1a25cee4ccaad47710948d34c4d82cebece46630d2"
     }
@@ -220,117 +220,117 @@
   "foundry_signoff": false,
   "physical_checks_passed": true,
   "physical_acceptance": {
-    "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_antenna40_v1_finish/physical_acceptance.json",
-    "bytes": 4215,
-    "sha256": "b4cff251cb4d1852939d54eea48942c155b9c16978466792b77407dcb00157bc"
+    "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_hold40_v1_finish/physical_acceptance.json",
+    "bytes": 4212,
+    "sha256": "5c91b3bbab1a671f228ecb74d4ab217504d45e81ff034ed1b41bd53cb8c8d952"
   },
   "gate_golden_cycles": 180645,
   "precheck_cases": 15,
   "precheck_failures": 0,
   "precheck_report": {
-    "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/tt/precheck/reports/results.xml",
+    "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/tt/precheck/reports/results.xml",
     "bytes": 873,
-    "sha256": "6e13cd4d3986be3729cc0e941db53a20c48e8de6e440183d6f28d1a12d353f82"
+    "sha256": "6f5392b993588c66733f7e8e230bac3c86962bae3804f2d6a44a1b3198d6ba5d"
   },
   "precheck_scope": "Pinned official scripts/PDK/Python requirements; Magic/KLayout from LibreLane OCI, not official Nix derivation.",
   "release_artifacts": [
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/tt_submission/commit_id.json",
-      "bytes": 389,
-      "sha256": "051f472c9cb4d31a7e53d92339c7f486ff4fb49c52dbc6980a6060fb396f7612"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/tt_submission/commit_id.json",
+      "bytes": 386,
+      "sha256": "b8e951c8cc68a7d5ebd5a3ce021f76895444861593efd5f5b7caff05b706b472"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/tt_submission/pdk.json",
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/tt_submission/pdk.json",
       "bytes": 164,
       "sha256": "fb347b613b56f11fab6a9722126b5323430895f587261ea769a47a35c912d23f"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/tt_submission/resolved.json",
-      "bytes": 176706,
-      "sha256": "5a6729731a9c2721d3176d492b3fa2e071879572fcbe41ac1191d598aa3febca"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/tt_submission/resolved.json",
+      "bytes": 176685,
+      "sha256": "7818a0196bd1b7c4fec0d29270a7657194b1ab8b6b9966d1fd2ca465870ad0d3"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/tt_submission/stats/metrics.csv",
-      "bytes": 15520,
-      "sha256": "234e8155e0f0770ce43bbf749fbf68b096422b4fb4fc61cc96afc72fe1eb1ef6"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/tt_submission/stats/metrics.csv",
+      "bytes": 15561,
+      "sha256": "0162531668bd27d05a9fe87ce84dbb072fa76c7f593281aac39de0918bd6d87d"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/tt_submission/stats/synthesis-stats.txt",
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/tt_submission/stats/synthesis-stats.txt",
       "bytes": 3314,
       "sha256": "ff092e95e04149d80d1edc8282c7b8ac2e797dbcf753ace1442a087989a23429"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/tt_submission/tt_um_hardlpu_row16.gds",
-      "bytes": 13946702,
-      "sha256": "2b021eeda763d04cba4c2fc6e806ebf31eaedf4d6d125bd1f46fb9b55f373999"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/tt_submission/tt_um_hardlpu_row16.gds",
+      "bytes": 14069546,
+      "sha256": "ec0c0fe69b5f9d0a9163beff2be7d4da5008dd60642fdf681bd1fe884898839f"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/tt_submission/tt_um_hardlpu_row16.lef",
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/tt_submission/tt_um_hardlpu_row16.lef",
       "bytes": 14690,
-      "sha256": "bc460c2f648fffca969901d6b1b5d1c0990b22c035d1cf214e26c9c7b0449256"
+      "sha256": "3856f2b860dde928772e5d90a9337d669a38394cac3bada9e5c7dbc9907ddfe7"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/tt_submission/tt_um_hardlpu_row16.max.spef",
-      "bytes": 7918878,
-      "sha256": "19d9aa019a538b7a901257afc1044fd3cd60f1eca29fcc12e3931e89e32edc26"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/tt_submission/tt_um_hardlpu_row16.max.spef",
+      "bytes": 8034730,
+      "sha256": "c72c0036b8e1c0078a932b22a15f09365b395b6dfcb30ea80cf5fda5f5344a2f"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/tt_submission/tt_um_hardlpu_row16.min.spef",
-      "bytes": 7345962,
-      "sha256": "e1657418f513b2eb1ebc93742f9ecaa996f3a25075daf7702fffa98ca0760b6d"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/tt_submission/tt_um_hardlpu_row16.min.spef",
+      "bytes": 7447502,
+      "sha256": "e8758cb84a7ea7e35b23929f42740d10a941c03e7d438f936206b05951175f5f"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/tt_submission/tt_um_hardlpu_row16.nom.spef",
-      "bytes": 7470387,
-      "sha256": "8a25799f6e3486a9edee6c3b7cda24fc3922abcc2cb890a8dc3b89702441887d"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/tt_submission/tt_um_hardlpu_row16.nom.spef",
+      "bytes": 7574915,
+      "sha256": "c6d37f0fd386e147755950d04a95d2d07d7616663eff250c0abce9e8b1b4401f"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/tt_submission/tt_um_hardlpu_row16.oas",
-      "bytes": 657751,
-      "sha256": "101860e92613b71471fd3d367943da59747b4c9811afe8067a544a069932f43d"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/tt_submission/tt_um_hardlpu_row16.oas",
+      "bytes": 660981,
+      "sha256": "ef27a8b67b18579101bd2e2743d5dcf7c3dfab120c8fce5fc063c3fc63661959"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/build/row16-provider-antenna40_v1/tt_submission/tt_um_hardlpu_row16.v",
-      "bytes": 3159580,
-      "sha256": "e8fcdfb94a3c5614ffaf9068bf564833739131e22537716f73482c6d21319f39"
+      "path": "/mnt/d/Code/HardLPU/build/row16-provider-hold40_v1/tt_submission/tt_um_hardlpu_row16.v",
+      "bytes": 3140561,
+      "sha256": "62c5d5f8992a8974075e8fd54e63a50be80e1e9894010e5c54fb6d5b13ebbd75"
     }
   ],
   "remaining": "License/release approval and provider acceptance; no foundry/full-chip or silicon claim.",
   "executions": [
     {
-      "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_antenna40_v1_finish/gate.execution.json",
-      "bytes": 1099,
-      "sha256": "e919996b2a13435d781fb6a96d8c194979d623a236b87a9262557be4ef775552"
+      "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_hold40_v1_finish/gate.execution.json",
+      "bytes": 1081,
+      "sha256": "083410f08005432affee1c4b820ea3e85e3f7a1c5e33ff11efb3e838ed62086a"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_antenna40_v1_finish/package.execution.json",
-      "bytes": 1100,
-      "sha256": "89588684ccdaf8649fc361eb92566d50e2c9fe8dfe02f1d895fe37c816fc0ce5"
+      "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_hold40_v1_finish/package.execution.json",
+      "bytes": 1087,
+      "sha256": "01886f651ca5f1856afae05f1040dbe476e8b23617a4556ec612e38fe90f1d21"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_antenna40_v1_finish/precheck.execution.json",
-      "bytes": 1160,
-      "sha256": "5b1dfcd8fe6516c5ec071506af9a7f1079896d111409fdd0db39627e6fb9f056"
+      "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_hold40_v1_finish/precheck.execution.json",
+      "bytes": 1147,
+      "sha256": "deff225c4598b7273a218e7742e4ecef5fe108b766f25cc1fc1a89e64121817d"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_antenna40_v1_finish/precheck_dependencies.execution.json",
-      "bytes": 1192,
-      "sha256": "c7ab03df2d2340ab5a7b2e47d2418b3a9ee757d60133a267c5d0e12afc55ead9"
+      "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_hold40_v1_finish/precheck_dependencies.execution.json",
+      "bytes": 1183,
+      "sha256": "421c9a7caa54eb3c9004139471d964012b6c335cedf4256b56914d14b38d8e3e"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_antenna40_v1_finish/precheck_pdk.execution.json",
-      "bytes": 1095,
-      "sha256": "8975248a838d761b616289eafde5f5bd985d311e5ee1cf830802f4dc2aaca63b"
+      "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_hold40_v1_finish/precheck_pdk.execution.json",
+      "bytes": 1088,
+      "sha256": "93c020f741d5d12c2a62efc68279d04907ecd7eb788c4cf0c9a421374c483857"
     },
     {
-      "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_antenna40_v1_finish/precheck_tools.execution.json",
-      "bytes": 1023,
-      "sha256": "6e54789bbac2c38786d17fd6ba4d8b30fd908b39570721c04a02c868ba569558"
+      "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_hold40_v1_finish/precheck_tools.execution.json",
+      "bytes": 1017,
+      "sha256": "0ab07964b9bef0eb798dfde320f1e18bf0a58166f53aa01074c90e15108601af"
     }
   ],
   "daemon_exit.json": {
-    "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_antenna40_v1_finish/daemon_exit.json",
-    "bytes": 481,
-    "sha256": "6484dbf5233562d8520228efd392977475f01c6b659fc4f15f1f779d2024c2c8"
+    "path": "/mnt/d/Code/HardLPU/reports/phase3/row16_provider_hold40_v1_finish/daemon_exit.json",
+    "bytes": 477,
+    "sha256": "0f6c3f371f9bb47beedad3b803c43b2c3d2b68a11842d221026580a5ca6e9911"
   }
 }

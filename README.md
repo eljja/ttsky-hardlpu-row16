@@ -11,8 +11,8 @@ constant-specialized gates and wires, not metal resistance.
 
 - RTL and zero-delay powered-netlist regression: 180645 pin cycles each.
 - Retained local precheck: 15/15, route/Magic DRC0, abstract macro LVS0, antenna0.
-- Nine open-PDK RC/PVT views: worst setup +3.355ns; hold +0.002014ns.
-- Approximately 2ps hold margin requires provider integration review.
+- Nine RC/PVT checks at25ns: setup+2.915870294ns, hold+0.132688364ns.
+- Actual shuttle clock/IO conditions still require provider integration review.
 
 This is a submission candidate, **not submitted, fabricated or tapeout-ready**.
 No foundry full-chip transistor LVS, qualified PEX/SI/OCV/IR/EM/ESD, measured
